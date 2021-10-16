@@ -53,7 +53,7 @@ class MyHomePage extends StatefulWidget {
 class _MyHomePageState extends State<MyHomePage> {
   int _counter = 0;
   String _str = "test";
-  static const _url = "http://127.0.0.1:5000/hello/Flutter";
+  static const _url = "https://jsonplaceholder.typicode.com/todos/1";
   final List<Map<String, dynamic>> listItems = [
     {
       'text': 'Item 1',
